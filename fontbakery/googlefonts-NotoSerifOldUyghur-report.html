@@ -73,24 +73,24 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>0</td>
-                <td>6</td>
-                <td>113</td>
+                <td>1</td>
                 <td>7</td>
-                <td>101</td>
+                <td>119</td>
+                <td>7</td>
+                <td>106</td>
             </tr>
             <tr>
                 <td>0%</td>
-                <td>0%</td>
+                <td>1%</td>
                 <td>4%</td>
-                <td>66%</td>
+                <td>68%</td>
                 <td>4%</td>
-                <td>59%</td>
+                <td>61%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Combined length of family and style must not exceed 27 characters.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_and_style_max_length&gt;</div>
 
@@ -103,7 +103,12 @@ FONT_FAMILY_NAME = 'Noto Serif Old Uyghur' / SUBFAMILY_NAME = 'Regular'</p>
 
 <details><summary>⚠️ <strong>fonts/NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Noto fonts must have an ARTICLE.en_us.html file</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/description/noto_has_article&gt;</div>
+
+<details><summary>🔥 <strong>fonts/NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
 <h3>Check font contains no unreachable glyphs</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
@@ -127,9 +132,18 @@ FONT_FAMILY_NAME = 'Noto Serif Old Uyghur' / SUBFAMILY_NAME = 'Regular'</p>
 
 - Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
-- And Glyph name: uogonek	Contours detected: 2	Expected: 1
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h3>Check math signs have the same width.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/NotoSerifOldUyghur/googlefonts/ttf/NotoSerifOldUyghur-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 559 among a set of 6 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 310:
+minus
+[code: width-outliers]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️</h2>
 <h3>Check mark characters are in GDEF mark glyph class.</h3>
@@ -163,7 +177,7 @@ dotaboveuyg (U+10F82), dotbelowuyg (U+10F83), twodotsaboveuyg (U+10F84) and twod
 
 * G (U+0047): X=519.0,Y=1.5 (should be at cap-height 0?) 
 
-* And 48 more.
+* 48 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
 </span></li></ul></div></details>
