@@ -92,7 +92,7 @@ disablesNiceNames = 1;
 familyName = "Noto Serif Old Uyghur";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem ougr dflt;\012";
 name = Languagesystems;
 }
 );
