@@ -1,5 +1,5 @@
 {
-.appVersion = "3109";
+.appVersion = "3207";
 DisplayStrings = (
 "/nbspace"
 );
@@ -107,7 +107,7 @@ code = "sub gimelHeth-uyg dotabove-uyg by gimelHethdotabove-uyg;\012sub gimelHet
 name = ccmp;
 },
 {
-code = "#Pe>Aleph alt\012	sub pe-uyg.init aleph-uyg.fina' by aleph-uyg;\012	sub pe-uyg.medi aleph-uyg.medi' by aleph-uyg;\012	sub pe-uyg.medi aleph-uyg.fina' by aleph-uyg;\012	sub kaph-uyg.init aleph-uyg.fina' by aleph-uyg;\012	sub kaph-uyg.medi aleph-uyg.medi' by aleph-uyg;\012	sub kaph-uyg.medi aleph-uyg.fina' by aleph-uyg;\012\012";
+code = "#Pe>Aleph alt\012	sub pe-uyg.init aleph-uyg.fina' by aleph-uyg;\012	sub pe-uyg.medi aleph-uyg.medi' by aleph-uyg;\012	sub pe-uyg.medi aleph-uyg.fina' by aleph-uyg;\012	sub kaph-uyg.init aleph-uyg.fina' by aleph-uyg;\012#	sub kaph-uyg.medi aleph-uyg.medi' by aleph-uyg;\012#	sub kaph-uyg.medi aleph-uyg.fina' by aleph-uyg;\012\012";
 name = rclt;
 },
 {
