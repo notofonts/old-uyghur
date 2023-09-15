@@ -2,7 +2,7 @@
 .appVersion = "3217";
 DisplayStrings = (
 "/nbspace",
-"/kashida-ar"
+"/finalHeth-uyg/finalHethdotabove-uyg"
 );
 classes = (
 {
@@ -104,7 +104,7 @@ code = "feature rclt;\012feature fina;\012feature medi;\012feature init;\012feat
 name = aalt;
 },
 {
-code = "sub gimelHeth-uyg dotabove-uyg by gimelHethdotabove-uyg;\012sub gimelHeth-uyg.init dotabove-uyg by gimelHethdotabove-uyg.init;\012sub gimelHeth-uyg.medi dotabove-uyg by gimelHethdotabove-uyg.medi;\012sub gimelHeth-uyg.fina dotabove-uyg by gimelHethdotabove-uyg.fina;\012sub gimelHeth-uyg twodotsabove-uyg by gimelHethtwodotsabove-uyg;\012sub gimelHeth-uyg.init twodotsabove-uyg by gimelHethtwodotsabove-uyg.init;\012sub gimelHeth-uyg.medi twodotsabove-uyg by gimelHethtwodotsabove-uyg.medi;\012sub gimelHeth-uyg.fina twodotsabove-uyg by gimelHethtwodotsabove-uyg.fina;\012sub zayin-uyg dotbelow-uyg by zayindotbelow-uyg;\012sub zayin-uyg.fina dotbelow-uyg by zayindotbelow-uyg.fina;\012sub zayin-uyg twodotsbelow-uyg by zayintwodotsbelow-uyg;\012sub zayin-uyg.fina twodotsbelow-uyg by zayintwodotsbelow-uyg.fina;\012sub finalHeth-uyg dotabove-uyg by finalHethdotabove-uyg;\012sub finalHeth-uyg.fina dotabove-uyg by finalHethdotabove-uyg.fina;\012sub finalHeth-uyg twodotsabove-uyg by finalHethtwodotsabove-uyg;\012sub finalHeth-uyg.fina twodotsabove-uyg by finalHethtwodotsabove-uyg.fina;\012sub nun-uyg dotabove-uyg by nundotabove-uyg;\012sub nun-uyg.init dotabove-uyg by nundotabove-uyg.init;\012sub nun-uyg.medi dotabove-uyg by nundotabove-uyg.medi;\012sub nun-uyg.fina dotabove-uyg by nundotabove-uyg.fina;\012sub shin-uyg twodotsbelow-uyg by shintwodotsbelow-uyg;\012sub shin-uyg.init twodotsbelow-uyg by shintwodotsbelow-uyg.init;\012sub shin-uyg.medi twodotsbelow-uyg by shintwodotsbelow-uyg.medi;\012sub shin-uyg.fina twodotsbelow-uyg by shintwodotsbelow-uyg.fina;";
+code = "#sub gimelHeth-uyg dotabove-uyg by gimelHethdotabove-uyg;\012#sub gimelHeth-uyg.init dotabove-uyg by gimelHethdotabove-uyg.init;\012#sub gimelHeth-uyg.medi dotabove-uyg by gimelHethdotabove-uyg.medi;\012#sub gimelHeth-uyg.fina dotabove-uyg by gimelHethdotabove-uyg.fina;\012#sub gimelHeth-uyg twodotsabove-uyg by gimelHethtwodotsabove-uyg;\012#sub gimelHeth-uyg.init twodotsabove-uyg by gimelHethtwodotsabove-uyg.init;\012#sub gimelHeth-uyg.medi twodotsabove-uyg by gimelHethtwodotsabove-uyg.medi;\012#sub gimelHeth-uyg.fina twodotsabove-uyg by gimelHethtwodotsabove-uyg.fina;\012#sub zayin-uyg dotbelow-uyg by zayindotbelow-uyg;\012#sub zayin-uyg.fina dotbelow-uyg by zayindotbelow-uyg.fina;\012#sub zayin-uyg twodotsbelow-uyg by zayintwodotsbelow-uyg;\012#sub zayin-uyg.fina twodotsbelow-uyg by zayintwodotsbelow-uyg.fina;\012#sub finalHeth-uyg dotabove-uyg by finalHethdotabove-uyg;\012#sub finalHeth-uyg.fina dotabove-uyg by finalHethdotabove-uyg.fina;\012#sub finalHeth-uyg twodotsabove-uyg by finalHethtwodotsabove-uyg;\012#sub finalHeth-uyg.fina twodotsabove-uyg by finalHethtwodotsabove-uyg.fina;\012#sub nun-uyg dotabove-uyg by nundotabove-uyg;\012#sub nun-uyg.init dotabove-uyg by nundotabove-uyg.init;\012#sub nun-uyg.medi dotabove-uyg by nundotabove-uyg.medi;\012#sub nun-uyg.fina dotabove-uyg by nundotabove-uyg.fina;\012#sub shin-uyg twodotsbelow-uyg by shintwodotsbelow-uyg;\012#sub shin-uyg.init twodotsbelow-uyg by shintwodotsbelow-uyg.init;\012#sub shin-uyg.medi twodotsbelow-uyg by shintwodotsbelow-uyg.medi;\012#sub shin-uyg.fina twodotsbelow-uyg by shintwodotsbelow-uyg.fina;\012";
 name = ccmp;
 },
 {
