@@ -1,7 +1,8 @@
 {
 .appVersion = "3217";
 DisplayStrings = (
-"/nbspace"
+"/nbspace",
+"/kashida-ar"
 );
 classes = (
 {
@@ -211,7 +212,7 @@ xHeight = 0;
 glyphs = (
 {
 glyphname = "kashida-ar";
-lastChange = "2021-12-09 08:59:54 +0000";
+lastChange = "2023-09-15 10:06:56 +0000";
 layers = (
 {
 anchors = (
@@ -245,7 +246,7 @@ nodes = (
 );
 }
 );
-width = 446;
+width = 376;
 }
 );
 unicode = 0640;
