@@ -123,7 +123,7 @@ code = "sub aleph-uyg by aleph-uyg.init;\012sub beth-uyg by beth-uyg.init;\012su
 name = init;
 },
 {
-code = "	lookupflag IgnoreMarks RightToLeft;\012#Kaph>Lesh ligature\012	sub kaph-uyg.init lesh-uyg.fina by kaph-uyg_lesh-uyg;\012	sub kaph-uyg.medi lesh-uyg.fina by kaph-uyg.fina_lesh-uyg.fina;\012	sub kaph-uyg.init lesh-uyg.medi by kaph-uyg.init_lesh-uyg.init;\012	sub kaph-uyg.medi lesh-uyg.medi by kaph-uyg.medi_lesh-uyg.medi;\012#Mem>Lesh ligature\012	sub mem-uyg.init lesh-uyg.fina by mem-uyg_lesh-uyg;\012	sub mem-uyg.medi lesh-uyg.fina by mem-uyg.fina_lesh-uyg.fina;\012	sub mem-uyg.init lesh-uyg.medi by mem-uyg.init_lesh-uyg.init;\012	sub mem-uyg.medi lesh-uyg.medi by mem-uyg.medi_lesh-uyg.medi;\012#Pe>Lesh ligature\012	sub pe-uyg.init lesh-uyg.fina by pe-uyg_lesh-uyg;\012	sub pe-uyg.medi lesh-uyg.fina by pe-uyg.fina_lesh-uyg.fina;\012	sub pe-uyg.init lesh-uyg.medi by pe-uyg.init_lesh-uyg.init;\012	sub pe-uyg.medi lesh-uyg.medi by pe-uyg.medi_lesh-uyg.medi;\012#Kaph>Waw ligature\012	sub kaph-uyg.init waw-uyg.fina by kaph-uyg_waw-uyg;\012	sub kaph-uyg.medi waw-uyg.fina by kaph-uyg.fina_waw-uyg.fina;\012	sub kaph-uyg.init waw-uyg.medi by kaph-uyg.init_waw-uyg.init;\012	sub kaph-uyg.medi waw-uyg.medi by kap-uyg.medi_waw-uyg.medi;\012#Pe>Waw ligature\012	sub pe-uyg.init waw-uyg.fina by pe-uyg_waw-uyg;\012	sub pe-uyg.medi waw-uyg.fina by pe-uyg.fina_waw-uyg.fina;\012	sub pe-uyg.init waw-uyg.medi by pe-uyg.init_waw-uyg.init;\012	sub pe-uyg.medi waw-uyg.medi by pe-uyg.medi_waw-uyg.medi;\012";
+code = "	lookupflag IgnoreMarks RightToLeft;\012#Kaph>Lesh ligature\012	sub kaph-uyg.init lesh-uyg.fina by kaph-uyg_lesh-uyg;\012	sub kaph-uyg.medi lesh-uyg.fina by kaph-uyg.fina_lesh-uyg.fina;\012	sub kaph-uyg.init lesh-uyg.medi by kaph-uyg.init_lesh-uyg.init;\012	sub kaph-uyg.medi lesh-uyg.medi by kaph-uyg.medi_lesh-uyg.medi;\012#Mem>Lesh ligature\012	sub mem-uyg.init lesh-uyg.fina by mem-uyg_lesh-uyg;\012	sub mem-uyg.medi lesh-uyg.fina by mem-uyg.fina_lesh-uyg.fina;\012	sub mem-uyg.init lesh-uyg.medi by mem-uyg.init_lesh-uyg.init;\012	sub mem-uyg.medi lesh-uyg.medi by mem-uyg.medi_lesh-uyg.medi;\012#Pe>Lesh ligature\012	sub pe-uyg.init lesh-uyg.fina by pe-uyg_lesh-uyg;\012	sub pe-uyg.medi lesh-uyg.fina by pe-uyg.fina_lesh-uyg.fina;\012	sub pe-uyg.init lesh-uyg.medi by pe-uyg.init_lesh-uyg.init;\012	sub pe-uyg.medi lesh-uyg.medi by pe-uyg.medi_lesh-uyg.medi;\012#Kaph>Waw ligature\012	sub kaph-uyg.init waw-uyg.fina by kaph-uyg_waw-uyg;\012	sub kaph-uyg.medi waw-uyg.fina by kaph-uyg.fina_waw-uyg.fina;\012	sub kaph-uyg.init waw-uyg.medi by kaph-uyg.init_waw-uyg.init;\012	sub kaph-uyg.medi waw-uyg.medi by kap-uyg.medi_waw-uyg.medi;\012#Pe>Waw ligature\012	sub pe-uyg.init waw-uyg.fina by pe-uyg_waw-uyg;\012	sub pe-uyg.medi waw-uyg.fina by pe-uyg.fina_waw-uyg.fina;\012	sub pe-uyg.init waw-uyg.medi by pe-uyg.init_waw-uyg.init;\012	sub pe-uyg.medi waw-uyg.medi by pe-uyg.medi_waw-uyg.medi;\012#Kaph/Pe where there is no ligature\012	sub [pe-uyg.init pe-uyg.medi kaph-uyg.init kaph-uyg.medi] @mediSub' by @initSub;\012	sub [pe-uyg.init pe-uyg.medi kaph-uyg.init kaph-uyg.medi] @finaSub' by @finaDef;\012";
 name = rlig;
 },
 {
@@ -138,6 +138,10 @@ name = dlig;
 {
 code = "# Automatic Code Start";
 name = mark;
+},
+{
+code = "pos [pe-uyg.init pe-uyg.medi kaph-uyg.init kaph-uyg.medi] [gimelHeth-uyg gimelHeth-uyg.init]' 150;\012pos [pe-uyg.init pe-uyg.medi kaph-uyg.init kaph-uyg.medi] [mem-uyg samekh-uyg samekh-uyg.init]' 200;\012pos [pe-uyg.init pe-uyg.medi kaph-uyg.init kaph-uyg.medi] [shin-uyg shin-uyg.init]' 200;";
+name = dist;
 }
 );
 fontMaster = (
