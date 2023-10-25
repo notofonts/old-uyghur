@@ -1,8 +1,7 @@
 {
-.appVersion = "3217";
+.appVersion = "3221";
 DisplayStrings = (
-"/nbspace",
-"/finalHeth-uyg/finalHethdotabove-uyg"
+"/nbspace"
 );
 classes = (
 {
@@ -135,6 +134,10 @@ name = salt;
 automatic = 1;
 code = "lookupflag IgnoreMarks;\012sub kaph-uyg lesh-uyg by kaph-uyg_lesh-uyg;\012sub kaph-uyg waw-uyg by kaph-uyg_waw-uyg;\012sub mem-uyg lesh-uyg by mem-uyg_lesh-uyg;\012sub pe-uyg lesh-uyg by pe-uyg_lesh-uyg;\012sub pe-uyg waw-uyg by pe-uyg_waw-uyg;\012sub kaph-uyg.medi lesh-uyg.medi by kaph-uyg.medi_lesh-uyg.medi;\012sub kaph-uyg.medi waw-uyg.medi by kaph-uyg.medi_waw-uyg.medi;\012sub kaph-uyg.fina lesh-uyg.fina by kaph-uyg.fina_lesh-uyg.fina;\012sub kaph-uyg.fina waw-uyg.fina by kaph-uyg.fina_waw-uyg.fina;\012sub kaph-uyg.init lesh-uyg.init by kaph-uyg.init_lesh-uyg.init;\012sub kaph-uyg.init waw-uyg.init by kaph-uyg.init_waw-uyg.init;\012sub mem-uyg.medi lesh-uyg.medi by mem-uyg.medi_lesh-uyg.medi;\012sub mem-uyg.fina lesh-uyg.fina by mem-uyg.fina_lesh-uyg.fina;\012sub mem-uyg.init lesh-uyg.init by mem-uyg.init_lesh-uyg.init;\012sub pe-uyg.medi lesh-uyg.medi by pe-uyg.medi_lesh-uyg.medi;\012sub pe-uyg.medi waw-uyg.medi by pe-uyg.medi_waw-uyg.medi;\012sub pe-uyg.fina lesh-uyg.fina by pe-uyg.fina_lesh-uyg.fina;\012sub pe-uyg.fina waw-uyg.fina by pe-uyg.fina_waw-uyg.fina;\012sub pe-uyg.init lesh-uyg.init by pe-uyg.init_lesh-uyg.init;\012sub pe-uyg.init waw-uyg.init by pe-uyg.init_waw-uyg.init;\012";
 name = dlig;
+},
+{
+code = "# Automatic Code Start";
+name = mark;
 }
 );
 fontMaster = (
@@ -443,66 +446,6 @@ width = 760;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "aleph-uyg";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"764 66 LINE",
-"763 74 LINE",
-"696 96 OFFCURVE",
-"659 151 OFFCURVE",
-"659 238 CURVE",
-"651 238 LINE",
-"595 182 LINE SMOOTH",
-"578 165 OFFCURVE",
-"557 141 OFFCURVE",
-"557 95 CURVE SMOOTH",
-"557 54 OFFCURVE",
-"585 10 OFFCURVE",
-"676 -22 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"89 -12 OFFCURVE",
-"94 -12 OFFCURVE",
-"98 -12 CURVE SMOOTH",
-"642 0 LINE",
-"700 50 LINE",
-"645 95 LINE",
-"205 95 LINE SMOOTH",
-"124 95 OFFCURVE",
-"108 110 OFFCURVE",
-"105 167 CURVE",
-"98 167 LINE",
-"30 99 LINE SMOOTH",
-"17 86 OFFCURVE",
-"10 74 OFFCURVE",
-"10 56 CURVE SMOOTH",
-"10 26 OFFCURVE",
-"32 -12 OFFCURVE",
-"81 -12 CURVE SMOOTH"
-);
-}
-);
-width = 774;
-}
-);
-unicode = 10F70;
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-userData = {
-case = noCase;
-};
 },
 {
 glyphname = "beth-uyg";
@@ -1535,59 +1478,6 @@ script = "Old Uyghur";
 category = Letter;
 },
 {
-glyphname = "aleph-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"742 0 LINE SMOOTH",
-"747 0 OFFCURVE",
-"750 3 OFFCURVE",
-"750 8 CURVE SMOOTH",
-"750 87 LINE SMOOTH",
-"750 92 OFFCURVE",
-"747 95 OFFCURVE",
-"742 95 CURVE SMOOTH",
-"692 98 OFFCURVE",
-"659 154 OFFCURVE",
-"659 234 CURVE",
-"650 234 LINE",
-"595 179 LINE SMOOTH",
-"580 164 OFFCURVE",
-"558 143 OFFCURVE",
-"558 95 CURVE",
-"206 95 LINE SMOOTH",
-"125 95 OFFCURVE",
-"109 109 OFFCURVE",
-"107 166 CURVE",
-"98 166 LINE",
-"31 98 LINE SMOOTH",
-"20 86 OFFCURVE",
-"10 73 OFFCURVE",
-"10 52 CURVE SMOOTH",
-"10 25 OFFCURVE",
-"32 -13 OFFCURVE",
-"81 -13 CURVE SMOOTH",
-"98 -13 LINE",
-"628 0 LINE"
-);
-}
-);
-width = 742;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-userData = {
-case = noCase;
-};
-},
-{
 glyphname = "aleph-uyg.init";
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -1683,63 +1573,6 @@ category = Letter;
 userData = {
 case = noCase;
 };
-},
-{
-glyphname = "beth-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"701 0 LINE SMOOTH",
-"706 0 OFFCURVE",
-"709 3 OFFCURVE",
-"709 8 CURVE SMOOTH",
-"709 87 LINE SMOOTH",
-"709 92 OFFCURVE",
-"706 95 OFFCURVE",
-"701 95 CURVE SMOOTH",
-"699 95 LINE",
-"685 191 OFFCURVE",
-"612 268 OFFCURVE",
-"530 268 CURVE SMOOTH",
-"493 268 OFFCURVE",
-"472 253 OFFCURVE",
-"456 237 CURVE SMOOTH",
-"390 171 LINE",
-"394 164 LINE",
-"408 169 OFFCURVE",
-"426 175 OFFCURVE",
-"452 175 CURVE SMOOTH",
-"511 175 OFFCURVE",
-"557 142 OFFCURVE",
-"584 95 CURVE",
-"207 95 LINE SMOOTH",
-"125 95 OFFCURVE",
-"109 110 OFFCURVE",
-"107 168 CURVE",
-"99 168 LINE",
-"30 100 LINE SMOOTH",
-"17 88 OFFCURVE",
-"10 74 OFFCURVE",
-"10 53 CURVE SMOOTH",
-"10 26 OFFCURVE",
-"31 -13 OFFCURVE",
-"82 -13 CURVE SMOOTH",
-"99 -13 LINE",
-"632 0 LINE"
-);
-}
-);
-width = 701;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "beth-uyg.init";
@@ -1842,167 +1675,6 @@ width = 366;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "finalHeth-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{652, 326}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"98 -13 LINE",
-"382 -1 LINE SMOOTH",
-"429 1 OFFCURVE",
-"454 18 OFFCURVE",
-"483 41 CURVE SMOOTH",
-"544 88 LINE",
-"531 147 LINE",
-"493 122 LINE SMOOTH",
-"463 102 OFFCURVE",
-"428 95 OFFCURVE",
-"390 95 CURVE SMOOTH",
-"206 95 LINE SMOOTH",
-"124 95 OFFCURVE",
-"108 111 OFFCURVE",
-"106 168 CURVE",
-"98 168 LINE",
-"29 99 LINE SMOOTH",
-"17 87 OFFCURVE",
-"10 73 OFFCURVE",
-"10 53 CURVE SMOOTH",
-"10 25 OFFCURVE",
-"31 -13 OFFCURVE",
-"81 -13 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"704 0 LINE",
-"735 0 LINE SMOOTH",
-"740 0 OFFCURVE",
-"743 3 OFFCURVE",
-"743 8 CURVE SMOOTH",
-"743 87 LINE SMOOTH",
-"743 92 OFFCURVE",
-"740 95 OFFCURVE",
-"735 95 CURVE SMOOTH",
-"704 95 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"699 0 LINE SMOOTH",
-"719 0 OFFCURVE",
-"735 13 OFFCURVE",
-"735 72 CURVE SMOOTH",
-"735 148 OFFCURVE",
-"713 223 OFFCURVE",
-"697 264 CURVE",
-"688 264 LINE",
-"660 202 OFFCURVE",
-"619 127 OFFCURVE",
-"582 83 CURVE",
-"616 82 LINE",
-"615 106 OFFCURVE",
-"606 209 OFFCURVE",
-"606 302 CURVE",
-"601 302 LINE",
-"539 234 OFFCURVE",
-"488 166 OFFCURVE",
-"488 82 CURVE SMOOTH",
-"488 42 OFFCURVE",
-"528 0 OFFCURVE",
-"596 0 CURVE SMOOTH"
-);
-}
-);
-width = 735;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
-glyphname = "gimelHeth-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{209, 326}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"216 31 LINE",
-"223 101 LINE",
-"145 255 LINE",
-"134 255 LINE",
-"104 218 OFFCURVE",
-"69 182 OFFCURVE",
-"30 154 CURVE",
-"74 63 LINE",
-"86 33 OFFCURVE",
-"86 19 OFFCURVE",
-"60 -74 CURVE SMOOTH",
-"5 -272 LINE",
-"24 -278 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"267 0 LINE",
-"336 75 LINE",
-"336 124 OFFCURVE",
-"308 207 OFFCURVE",
-"283 255 CURVE",
-"275 255 LINE",
-"251 193 OFFCURVE",
-"222 137 OFFCURVE",
-"187 90 CURVE",
-"176 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"265 0 LINE",
-"336 0 LINE SMOOTH",
-"341 0 OFFCURVE",
-"344 3 OFFCURVE",
-"344 8 CURVE SMOOTH",
-"344 87 LINE SMOOTH",
-"344 92 OFFCURVE",
-"341 95 OFFCURVE",
-"336 95 CURVE SMOOTH",
-"265 95 LINE"
-);
-}
-);
-width = 336;
-}
-);
-leftMetricsKey = "gimelHeth-uyg";
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "gimelHeth-uyg.init";
@@ -2244,121 +1916,6 @@ script = "Old Uyghur";
 category = Letter;
 },
 {
-glyphname = "kaph-uyg.alt";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"-50 139 OFFCURVE",
-"65 0 OFFCURVE",
-"198 0 CURVE SMOOTH",
-"397 0 LINE SMOOTH",
-"402 0 OFFCURVE",
-"405 3 OFFCURVE",
-"405 8 CURVE SMOOTH",
-"405 87 LINE SMOOTH",
-"405 92 OFFCURVE",
-"402 95 OFFCURVE",
-"397 95 CURVE",
-"397 148 OFFCURVE",
-"384 209 OFFCURVE",
-"366 260 CURVE",
-"353 260 LINE",
-"312 138 LINE",
-"301 189 OFFCURVE",
-"284 241 OFFCURVE",
-"259 291 CURVE",
-"137 204 LINE",
-"137 198 LINE",
-"181 171 OFFCURVE",
-"219 132 OFFCURVE",
-"243 95 CURVE",
-"223 95 LINE SMOOTH",
-"73 95 OFFCURVE",
-"-8 244 OFFCURVE",
-"-21 464 CURVE",
-"-33 464 LINE",
-"-50 427 LINE"
-);
-}
-);
-width = 397;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
-glyphname = "kaph-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"463 197 LINE",
-"512 166 OFFCURVE",
-"556 121 OFFCURVE",
-"577 79 CURVE",
-"557 0 LINE",
-"648 0 LINE SMOOTH",
-"694 0 OFFCURVE",
-"720 40 OFFCURVE",
-"720 96 CURVE SMOOTH",
-"720 147 OFFCURVE",
-"708 208 OFFCURVE",
-"691 259 CURVE",
-"677 259 LINE",
-"636 138 LINE",
-"626 188 OFFCURVE",
-"609 239 OFFCURVE",
-"584 289 CURVE",
-"463 203 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"720 0 LINE SMOOTH",
-"725 0 OFFCURVE",
-"728 3 OFFCURVE",
-"728 8 CURVE SMOOTH",
-"728 87 LINE SMOOTH",
-"728 92 OFFCURVE",
-"725 95 OFFCURVE",
-"720 95 CURVE SMOOTH",
-"205 95 LINE SMOOTH",
-"124 95 OFFCURVE",
-"108 110 OFFCURVE",
-"105 166 CURVE",
-"98 166 LINE",
-"31 98 LINE SMOOTH",
-"19 87 OFFCURVE",
-"10 74 OFFCURVE",
-"10 52 CURVE SMOOTH",
-"10 25 OFFCURVE",
-"32 -12 OFFCURVE",
-"81 -12 CURVE SMOOTH",
-"98 -12 LINE",
-"626 0 LINE"
-);
-}
-);
-width = 720;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
 glyphname = "kaph-uyg.init";
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -2493,85 +2050,6 @@ width = 359;
 leftMetricsKey = "kaph-uyg.init";
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "lamedh-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"706 0 LINE",
-"743 74 LINE",
-"786 87 LINE",
-"664 223 OFFCURVE",
-"607 374 OFFCURVE",
-"607 502 CURVE SMOOTH",
-"607 548 OFFCURVE",
-"611 579 OFFCURVE",
-"620 614 CURVE",
-"610 617 LINE",
-"464 527 OFFCURVE",
-"387 470 OFFCURVE",
-"388 382 CURVE SMOOTH",
-"388 355 OFFCURVE",
-"397 335 OFFCURVE",
-"405 328 CURVE",
-"410 328 LINE",
-"517 356 LINE",
-"505 377 OFFCURVE",
-"497 404 OFFCURVE",
-"497 420 CURVE SMOOTH",
-"497 451 OFFCURVE",
-"510 488 OFFCURVE",
-"543 515 CURVE",
-"556 510 LINE",
-"551 489 OFFCURVE",
-"546 447 OFFCURVE",
-"546 407 CURVE SMOOTH",
-"546 263 OFFCURVE",
-"628 125 OFFCURVE",
-"670 70 CURVE",
-"645 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"99 -14 LINE",
-"634 0 LINE",
-"787 0 LINE SMOOTH",
-"792 0 OFFCURVE",
-"795 3 OFFCURVE",
-"795 8 CURVE SMOOTH",
-"795 87 LINE SMOOTH",
-"795 92 OFFCURVE",
-"792 95 OFFCURVE",
-"787 95 CURVE SMOOTH",
-"207 95 LINE SMOOTH",
-"125 95 OFFCURVE",
-"109 110 OFFCURVE",
-"107 167 CURVE",
-"99 167 LINE",
-"32 99 LINE SMOOTH",
-"19 85 OFFCURVE",
-"10 73 OFFCURVE",
-"10 52 CURVE SMOOTH",
-"10 24 OFFCURVE",
-"33 -14 OFFCURVE",
-"83 -14 CURVE SMOOTH"
-);
-}
-);
-width = 787;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "lamedh-uyg.init";
@@ -2715,86 +2193,6 @@ script = "Old Uyghur";
 category = Letter;
 },
 {
-glyphname = "lesh-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-guideLines = (
-{
-angle = 90;
-position = "{410, 93}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"278 -124 LINE",
-"273 -117 LINE",
-"131 -117 LINE",
-"140 -139 LINE",
-"152 4 LINE",
-"113 37 LINE",
-"54 -146 LINE SMOOTH",
-"49 -161 OFFCURVE",
-"48 -173 OFFCURVE",
-"48 -180 CURVE SMOOTH",
-"48 -203 OFFCURVE",
-"54 -213 OFFCURVE",
-"84 -213 CURVE SMOOTH",
-"122 -213 OFFCURVE",
-"179 -220 OFFCURVE",
-"220 -232 CURVE",
-"227 -229 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"167 0 LINE",
-"283 0 LINE SMOOTH",
-"288 0 OFFCURVE",
-"291 3 OFFCURVE",
-"291 8 CURVE SMOOTH",
-"291 87 LINE SMOOTH",
-"291 92 OFFCURVE",
-"288 95 OFFCURVE",
-"283 95 CURVE SMOOTH",
-"209 95 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"122 305 LINE",
-"84 267 OFFCURVE",
-"15 170 OFFCURVE",
-"15 123 CURVE SMOOTH",
-"15 48 OFFCURVE",
-"79 0 OFFCURVE",
-"167 0 CURVE SMOOTH",
-"199 0 OFFCURVE",
-"218 21 OFFCURVE",
-"227 52 CURVE SMOOTH",
-"283 248 LINE",
-"273 259 LINE",
-"220 220 OFFCURVE",
-"149 162 OFFCURVE",
-"101 75 CURVE",
-"142 75 LINE",
-"128 303 LINE"
-);
-}
-);
-width = 283;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
 glyphname = "lesh-uyg.init";
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -2921,76 +2319,6 @@ width = 326;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "mem-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"168 0 LINE",
-"421 0 LINE SMOOTH",
-"426 0 OFFCURVE",
-"428 3 OFFCURVE",
-"428 8 CURVE SMOOTH",
-"428 87 LINE SMOOTH",
-"428 92 OFFCURVE",
-"426 95 OFFCURVE",
-"421 95 CURVE SMOOTH",
-"168 95 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"338 61 LINE",
-"422 74 LINE",
-"332 239 LINE",
-"275 328 LINE",
-"251 227 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"15 221 LINE",
-"223 221 LINE",
-"251 240 LINE",
-"302 221 LINE",
-"421 221 LINE",
-"421 277 LINE",
-"15 277 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"270 366 LINE",
-"184 312 LINE",
-"163 208 LINE SMOOTH",
-"115 -29 OFFCURVE",
-"14 -188 OFFCURVE",
-"-50 -270 CURVE",
-"-33 -280 LINE",
-"49 -208 OFFCURVE",
-"146 -86 OFFCURVE",
-"210 29 CURVE",
-"251 227 LINE",
-"277 292 LINE",
-"277 363 LINE"
-);
-}
-);
-width = 420;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "mem-uyg.init";
@@ -3146,61 +2474,6 @@ width = 415;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "nun-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = top;
-position = "{660, 326}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"730 0 LINE SMOOTH",
-"735 0 OFFCURVE",
-"738 3 OFFCURVE",
-"738 8 CURVE SMOOTH",
-"738 87 LINE SMOOTH",
-"738 92 OFFCURVE",
-"735 95 OFFCURVE",
-"730 95 CURVE",
-"725 139 OFFCURVE",
-"703 186 OFFCURVE",
-"682 221 CURVE",
-"674 221 LINE",
-"652 174 OFFCURVE",
-"625 131 OFFCURVE",
-"591 95 CURVE",
-"206 95 LINE SMOOTH",
-"124 95 OFFCURVE",
-"109 109 OFFCURVE",
-"107 167 CURVE",
-"98 167 LINE",
-"30 99 LINE SMOOTH",
-"17 86 OFFCURVE",
-"10 72 OFFCURVE",
-"10 52 CURVE SMOOTH",
-"10 26 OFFCURVE",
-"31 -13 OFFCURVE",
-"81 -13 CURVE SMOOTH",
-"98 -13 LINE",
-"628 0 LINE"
-);
-}
-);
-width = 730;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "nun-uyg.init";
@@ -3377,69 +2650,6 @@ script = "Old Uyghur";
 category = Letter;
 },
 {
-glyphname = "pe-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"672 0 LINE SMOOTH",
-"677 0 OFFCURVE",
-"680 3 OFFCURVE",
-"680 8 CURVE SMOOTH",
-"680 87 LINE SMOOTH",
-"680 92 OFFCURVE",
-"677 95 OFFCURVE",
-"672 95 CURVE SMOOTH",
-"671 95 LINE",
-"652 239 OFFCURVE",
-"556 324 OFFCURVE",
-"517 324 CURVE SMOOTH",
-"482 324 OFFCURVE",
-"389 237 OFFCURVE",
-"389 190 CURVE SMOOTH",
-"389 162 OFFCURVE",
-"397 115 OFFCURVE",
-"399 95 CURVE",
-"356 95 LINE SMOOTH",
-"155 95 OFFCURVE",
-"37 245 OFFCURVE",
-"29 466 CURVE",
-"17 466 LINE",
-"5 419 LINE",
-"0 140 OFFCURVE",
-"147 0 OFFCURVE",
-"332 0 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"453 201 OFFCURVE",
-"471 225 OFFCURVE",
-"484 225 CURVE SMOOTH",
-"506 225 OFFCURVE",
-"571 130 OFFCURVE",
-"587 95 CURVE",
-"480 95 LINE",
-"473 115 OFFCURVE",
-"453 164 OFFCURVE",
-"453 186 CURVE SMOOTH"
-);
-}
-);
-width = 672;
-}
-);
-leftMetricsKey = "pe-uyg";
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
 glyphname = "pe-uyg.init";
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -3576,67 +2786,6 @@ script = "Old Uyghur";
 category = Letter;
 },
 {
-glyphname = "resh-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"213 202 LINE",
-"262 169 OFFCURVE",
-"307 123 OFFCURVE",
-"328 80 CURVE",
-"309 0 LINE",
-"400 0 LINE SMOOTH",
-"450 0 OFFCURVE",
-"475 41 OFFCURVE",
-"475 97 CURVE SMOOTH",
-"475 151 OFFCURVE",
-"463 212 OFFCURVE",
-"445 263 CURVE",
-"436 263 LINE",
-"389 140 LINE",
-"378 192 OFFCURVE",
-"361 244 OFFCURVE",
-"336 295 CURVE",
-"213 208 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"44 -4 OFFCURVE",
-"75 0 OFFCURVE",
-"119 0 CURVE SMOOTH",
-"475 0 LINE SMOOTH",
-"480 0 OFFCURVE",
-"483 3 OFFCURVE",
-"483 8 CURVE SMOOTH",
-"483 87 LINE SMOOTH",
-"483 92 OFFCURVE",
-"480 95 OFFCURVE",
-"475 95 CURVE SMOOTH",
-"130 95 LINE SMOOTH",
-"84 95 OFFCURVE",
-"65 88 OFFCURVE",
-"50 64 CURVE SMOOTH",
-"10 -2 LINE",
-"13 -12 LINE"
-);
-}
-);
-width = 475;
-}
-);
-leftMetricsKey = "resh-uyg";
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
 glyphname = "resh-uyg.init";
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -3723,121 +2872,6 @@ width = 271;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "sadhe-uyg.alt";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"312 277 LINE",
-"262 259 OFFCURVE",
-"183 256 OFFCURVE",
-"111 256 CURVE SMOOTH",
-"82 256 OFFCURVE",
-"61 252 OFFCURVE",
-"61 199 CURVE SMOOTH",
-"61 68 OFFCURVE",
-"48 -131 OFFCURVE",
-"-50 -274 CURVE",
-"-35 -284 LINE",
-"48 -199 OFFCURVE",
-"88 -110 OFFCURVE",
-"104 0 CURVE",
-"320 0 LINE SMOOTH",
-"325 0 OFFCURVE",
-"328 3 OFFCURVE",
-"328 8 CURVE SMOOTH",
-"328 87 LINE SMOOTH",
-"328 92 OFFCURVE",
-"325 95 OFFCURVE",
-"320 95 CURVE SMOOTH",
-"112 95 LINE",
-"115 159 LINE",
-"140 158 OFFCURVE",
-"212 157 OFFCURVE",
-"246 157 CURVE SMOOTH",
-"265 157 OFFCURVE",
-"273 162 OFFCURVE",
-"283 187 CURVE SMOOTH",
-"318 274 LINE"
-);
-}
-);
-width = 320;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
-glyphname = "sadhe-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"98 -13 LINE",
-"556 0 LINE",
-"769 0 LINE SMOOTH",
-"774 0 OFFCURVE",
-"777 3 OFFCURVE",
-"777 8 CURVE SMOOTH",
-"777 87 LINE SMOOTH",
-"777 92 OFFCURVE",
-"774 95 OFFCURVE",
-"769 95 CURVE SMOOTH",
-"207 95 LINE SMOOTH",
-"125 95 OFFCURVE",
-"110 110 OFFCURVE",
-"108 167 CURVE",
-"98 167 LINE",
-"31 99 LINE SMOOTH",
-"19 86 OFFCURVE",
-"10 73 OFFCURVE",
-"10 52 CURVE SMOOTH",
-"10 25 OFFCURVE",
-"32 -13 OFFCURVE",
-"82 -13 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"760 279 LINE",
-"709 262 OFFCURVE",
-"629 258 OFFCURVE",
-"606 258 CURVE SMOOTH",
-"573 258 OFFCURVE",
-"551 251 OFFCURVE",
-"538 199 CURVE SMOOTH",
-"506 74 LINE",
-"557 77 LINE",
-"580 160 LINE",
-"592 160 OFFCURVE",
-"650 158 OFFCURVE",
-"692 158 CURVE SMOOTH",
-"712 158 OFFCURVE",
-"718 163 OFFCURVE",
-"729 189 CURVE SMOOTH",
-"765 276 LINE"
-);
-}
-);
-width = 769;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "sadhe-uyg.init";
@@ -3954,73 +2988,6 @@ width = 259;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "samekh-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"182 83 OFFCURVE",
-"198 72 OFFCURVE",
-"198 31 CURVE SMOOTH",
-"198 -13 OFFCURVE",
-"178 -65 OFFCURVE",
-"144 -109 CURVE",
-"186 -150 LINE",
-"308 -55 LINE SMOOTH",
-"387 6 OFFCURVE",
-"408 32 OFFCURVE",
-"408 75 CURVE SMOOTH",
-"408 123 OFFCURVE",
-"381 206 OFFCURVE",
-"354 256 CURVE",
-"341 256 LINE",
-"320 175 OFFCURVE",
-"282 95 OFFCURVE",
-"228 31 CURVE",
-"283 -2 LINE",
-"283 118 OFFCURVE",
-"245 184 OFFCURVE",
-"188 235 CURVE",
-"176 235 LINE",
-"92 82 OFFCURVE",
-"2 -19 OFFCURVE",
-"-100 -95 CURVE",
-"-87 -112 LINE",
-"-3 -67 OFFCURVE",
-"116 5 OFFCURVE",
-"195 95 CURVE",
-"173 92 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"333 0 LINE",
-"408 0 LINE SMOOTH",
-"413 0 OFFCURVE",
-"416 3 OFFCURVE",
-"416 8 CURVE SMOOTH",
-"416 87 LINE SMOOTH",
-"416 92 OFFCURVE",
-"413 95 OFFCURVE",
-"408 95 CURVE SMOOTH",
-"333 95 LINE"
-);
-}
-);
-width = 408;
-}
-);
-leftMetricsKey = "samekh-uyg";
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "samekh-uyg.init";
@@ -4148,71 +3115,6 @@ width = 313;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "shin-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{209, -130}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"350 -148 LINE",
-"360 -148 LINE",
-"433 -96 OFFCURVE",
-"520 0 OFFCURVE",
-"520 75 CURVE SMOOTH",
-"520 124 OFFCURVE",
-"493 208 OFFCURVE",
-"466 259 CURVE",
-"454 259 LINE",
-"428 172 OFFCURVE",
-"402 86 OFFCURVE",
-"339 19 CURVE",
-"407 21 LINE",
-"308 238 LINE",
-"296 238 LINE",
-"199 83 OFFCURVE",
-"108 -21 OFFCURVE",
-"5 -97 CURVE",
-"18 -115 LINE",
-"104 -69 OFFCURVE",
-"225 3 OFFCURVE",
-"304 95 CURVE",
-"252 69 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"520 0 LINE SMOOTH",
-"525 0 OFFCURVE",
-"528 3 OFFCURVE",
-"528 8 CURVE SMOOTH",
-"528 87 LINE SMOOTH",
-"528 92 OFFCURVE",
-"525 95 OFFCURVE",
-"520 95 CURVE SMOOTH",
-"445 95 LINE",
-"445 0 LINE"
-);
-}
-);
-width = 520;
-}
-);
-leftMetricsKey = "gimelHeth-uyg";
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "shin-uyg.init";
@@ -4351,98 +3253,6 @@ width = 321;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "taw-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"98 -13 LINE",
-"434 -2 LINE SMOOTH",
-"482 0 OFFCURVE",
-"506 18 OFFCURVE",
-"534 40 CURVE SMOOTH",
-"595 88 LINE",
-"583 147 LINE",
-"545 121 LINE SMOOTH",
-"515 101 OFFCURVE",
-"480 95 OFFCURVE",
-"441 95 CURVE SMOOTH",
-"207 95 LINE SMOOTH",
-"125 95 OFFCURVE",
-"109 110 OFFCURVE",
-"107 167 CURVE",
-"98 167 LINE",
-"31 99 LINE SMOOTH",
-"19 87 OFFCURVE",
-"10 73 OFFCURVE",
-"10 53 CURVE SMOOTH",
-"10 26 OFFCURVE",
-"32 -13 OFFCURVE",
-"82 -13 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"845 0 LINE SMOOTH",
-"865 0 OFFCURVE",
-"870 42 OFFCURVE",
-"870 76 CURVE SMOOTH",
-"870 167 OFFCURVE",
-"832 288 OFFCURVE",
-"780 288 CURVE SMOOTH",
-"726 288 OFFCURVE",
-"678 235 OFFCURVE",
-"623 175 CURVE",
-"634 111 LINE",
-"666 145 OFFCURVE",
-"710 184 OFFCURVE",
-"729 184 CURVE SMOOTH",
-"746 184 OFFCURVE",
-"758 125 OFFCURVE",
-"758 95 CURVE",
-"683 95 LINE SMOOTH",
-"656 95 OFFCURVE",
-"649 105 OFFCURVE",
-"650 128 CURVE SMOOTH",
-"657 302 LINE",
-"652 302 LINE",
-"591 234 OFFCURVE",
-"540 165 OFFCURVE",
-"540 82 CURVE SMOOTH",
-"540 33 OFFCURVE",
-"582 0 OFFCURVE",
-"634 0 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"842 0 LINE",
-"870 0 LINE SMOOTH",
-"875 0 OFFCURVE",
-"878 3 OFFCURVE",
-"878 8 CURVE SMOOTH",
-"878 87 LINE SMOOTH",
-"878 92 OFFCURVE",
-"875 95 OFFCURVE",
-"870 95 CURVE SMOOTH",
-"842 95 LINE"
-);
-}
-);
-width = 870;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "taw-uyg.init";
@@ -4594,67 +3404,6 @@ script = "Old Uyghur";
 category = Letter;
 },
 {
-glyphname = "waw-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"462 11 LINE",
-"467 165 LINE SMOOTH",
-"467 168 OFFCURVE",
-"467 172 OFFCURVE",
-"465 176 CURVE",
-"450 230 OFFCURVE",
-"412 266 OFFCURVE",
-"348 266 CURVE SMOOTH",
-"265 266 OFFCURVE",
-"210 203 OFFCURVE",
-"189 93 CURVE",
-"247 83 LINE",
-"263 145 OFFCURVE",
-"299 169 OFFCURVE",
-"339 169 CURVE SMOOTH",
-"386 169 OFFCURVE",
-"419 130 OFFCURVE",
-"420 63 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"38 -4 OFFCURVE",
-"70 0 OFFCURVE",
-"113 0 CURVE SMOOTH",
-"472 0 LINE SMOOTH",
-"477 0 OFFCURVE",
-"480 3 OFFCURVE",
-"480 8 CURVE SMOOTH",
-"480 87 LINE SMOOTH",
-"480 92 OFFCURVE",
-"477 95 OFFCURVE",
-"472 95 CURVE SMOOTH",
-"124 95 LINE SMOOTH",
-"78 95 OFFCURVE",
-"60 88 OFFCURVE",
-"45 63 CURVE SMOOTH",
-"5 -2 LINE",
-"8 -11 LINE"
-);
-}
-);
-width = 472;
-}
-);
-leftMetricsKey = "waw-uyg";
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
-},
-{
 glyphname = "waw-uyg.init";
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -4754,65 +3503,6 @@ width = 234;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "yodh-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-guideLines = (
-{
-angle = 225;
-position = "{222, 204}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"43 -4 OFFCURVE",
-"75 0 OFFCURVE",
-"118 0 CURVE SMOOTH",
-"475 0 LINE SMOOTH",
-"480 0 OFFCURVE",
-"483 3 OFFCURVE",
-"483 8 CURVE SMOOTH",
-"483 87 LINE SMOOTH",
-"483 92 OFFCURVE",
-"480 95 OFFCURVE",
-"475 95 CURVE SMOOTH",
-"460 95 LINE",
-"433 184 LINE SMOOTH",
-"409 262 OFFCURVE",
-"359 279 OFFCURVE",
-"298 279 CURVE SMOOTH",
-"285 279 OFFCURVE",
-"275 273 OFFCURVE",
-"263 262 CURVE SMOOTH",
-"162 162 LINE",
-"167 155 LINE",
-"190 160 OFFCURVE",
-"213 163 OFFCURVE",
-"231 163 CURVE SMOOTH",
-"284 163 OFFCURVE",
-"300 151 OFFCURVE",
-"338 95 CURVE",
-"129 95 LINE SMOOTH",
-"83 95 OFFCURVE",
-"65 87 OFFCURVE",
-"50 63 CURVE SMOOTH",
-"10 -2 LINE",
-"14 -12 LINE"
-);
-}
-);
-width = 475;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "yodh-uyg.init";
@@ -4920,72 +3610,6 @@ width = 276;
 );
 script = "Old Uyghur";
 category = Letter;
-},
-{
-glyphname = "zayin-uyg.fina";
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{103, 0}";
-}
-);
-guideLines = (
-{
-angle = 225;
-position = "{131, 15}";
-},
-{
-angle = 225;
-position = "{-26, 155}";
-}
-);
-layerId = m01;
-paths = (
-{
-closed = 1;
-nodes = (
-"14 -12 LINE",
-"43 -5 OFFCURVE",
-"76 0 OFFCURVE",
-"119 0 CURVE SMOOTH",
-"226 0 LINE SMOOTH",
-"231 0 OFFCURVE",
-"234 3 OFFCURVE",
-"234 8 CURVE SMOOTH",
-"234 87 LINE SMOOTH",
-"234 92 OFFCURVE",
-"231 95 OFFCURVE",
-"226 95 CURVE SMOOTH",
-"129 95 LINE SMOOTH",
-"83 95 OFFCURVE",
-"66 85 OFFCURVE",
-"51 62 CURVE SMOOTH",
-"10 -2 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"130 76 LINE",
-"188 0 LINE",
-"220 0 OFFCURVE",
-"226 13 OFFCURVE",
-"226 90 CURVE SMOOTH",
-"226 285 LINE",
-"213 286 LINE",
-"149 226 LINE"
-);
-}
-);
-width = 226;
-}
-);
-script = "Old Uyghur";
-category = Letter;
-subCategory = Other;
 },
 {
 glyphname = "zayindotbelow-uyg.fina";
@@ -5459,6 +4083,1385 @@ width = 637;
 );
 script = "Old Uyghur";
 category = Letter;
+},
+{
+glyphname = "aleph-uyg";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"764 66 LINE",
+"763 74 LINE",
+"696 96 OFFCURVE",
+"659 151 OFFCURVE",
+"659 238 CURVE",
+"651 238 LINE",
+"595 182 LINE SMOOTH",
+"578 165 OFFCURVE",
+"557 141 OFFCURVE",
+"557 95 CURVE SMOOTH",
+"557 54 OFFCURVE",
+"585 10 OFFCURVE",
+"676 -22 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"89 -12 OFFCURVE",
+"94 -12 OFFCURVE",
+"98 -12 CURVE SMOOTH",
+"642 0 LINE",
+"700 50 LINE",
+"645 95 LINE",
+"205 95 LINE SMOOTH",
+"124 95 OFFCURVE",
+"108 110 OFFCURVE",
+"105 167 CURVE",
+"98 167 LINE",
+"30 99 LINE SMOOTH",
+"17 86 OFFCURVE",
+"10 74 OFFCURVE",
+"10 56 CURVE SMOOTH",
+"10 26 OFFCURVE",
+"32 -12 OFFCURVE",
+"81 -12 CURVE SMOOTH"
+);
+}
+);
+width = 774;
+}
+);
+unicode = 10F70;
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+userData = {
+case = noCase;
+};
+},
+{
+glyphname = "aleph-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"742 0 LINE SMOOTH",
+"747 0 OFFCURVE",
+"750 3 OFFCURVE",
+"750 8 CURVE SMOOTH",
+"750 87 LINE SMOOTH",
+"750 92 OFFCURVE",
+"747 95 OFFCURVE",
+"742 95 CURVE SMOOTH",
+"692 98 OFFCURVE",
+"659 154 OFFCURVE",
+"659 234 CURVE",
+"650 234 LINE",
+"595 179 LINE SMOOTH",
+"580 164 OFFCURVE",
+"558 143 OFFCURVE",
+"558 95 CURVE",
+"206 95 LINE SMOOTH",
+"125 95 OFFCURVE",
+"109 109 OFFCURVE",
+"107 166 CURVE",
+"98 166 LINE",
+"31 98 LINE SMOOTH",
+"20 86 OFFCURVE",
+"10 73 OFFCURVE",
+"10 52 CURVE SMOOTH",
+"10 25 OFFCURVE",
+"32 -13 OFFCURVE",
+"81 -13 CURVE SMOOTH",
+"98 -13 LINE",
+"628 0 LINE"
+);
+}
+);
+width = 742;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+userData = {
+case = noCase;
+};
+},
+{
+glyphname = "beth-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"701 0 LINE SMOOTH",
+"706 0 OFFCURVE",
+"709 3 OFFCURVE",
+"709 8 CURVE SMOOTH",
+"709 87 LINE SMOOTH",
+"709 92 OFFCURVE",
+"706 95 OFFCURVE",
+"701 95 CURVE SMOOTH",
+"699 95 LINE",
+"685 191 OFFCURVE",
+"612 268 OFFCURVE",
+"530 268 CURVE SMOOTH",
+"493 268 OFFCURVE",
+"472 253 OFFCURVE",
+"456 237 CURVE SMOOTH",
+"390 171 LINE",
+"394 164 LINE",
+"408 169 OFFCURVE",
+"426 175 OFFCURVE",
+"452 175 CURVE SMOOTH",
+"511 175 OFFCURVE",
+"557 142 OFFCURVE",
+"584 95 CURVE",
+"207 95 LINE SMOOTH",
+"125 95 OFFCURVE",
+"109 110 OFFCURVE",
+"107 168 CURVE",
+"99 168 LINE",
+"30 100 LINE SMOOTH",
+"17 88 OFFCURVE",
+"10 74 OFFCURVE",
+"10 53 CURVE SMOOTH",
+"10 26 OFFCURVE",
+"31 -13 OFFCURVE",
+"82 -13 CURVE SMOOTH",
+"99 -13 LINE",
+"632 0 LINE"
+);
+}
+);
+width = 701;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "finalHeth-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{652, 326}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"98 -13 LINE",
+"382 -1 LINE SMOOTH",
+"429 1 OFFCURVE",
+"454 18 OFFCURVE",
+"483 41 CURVE SMOOTH",
+"544 88 LINE",
+"531 147 LINE",
+"493 122 LINE SMOOTH",
+"463 102 OFFCURVE",
+"428 95 OFFCURVE",
+"390 95 CURVE SMOOTH",
+"206 95 LINE SMOOTH",
+"124 95 OFFCURVE",
+"108 111 OFFCURVE",
+"106 168 CURVE",
+"98 168 LINE",
+"29 99 LINE SMOOTH",
+"17 87 OFFCURVE",
+"10 73 OFFCURVE",
+"10 53 CURVE SMOOTH",
+"10 25 OFFCURVE",
+"31 -13 OFFCURVE",
+"81 -13 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"704 0 LINE",
+"735 0 LINE SMOOTH",
+"740 0 OFFCURVE",
+"743 3 OFFCURVE",
+"743 8 CURVE SMOOTH",
+"743 87 LINE SMOOTH",
+"743 92 OFFCURVE",
+"740 95 OFFCURVE",
+"735 95 CURVE SMOOTH",
+"704 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"699 0 LINE SMOOTH",
+"719 0 OFFCURVE",
+"735 13 OFFCURVE",
+"735 72 CURVE SMOOTH",
+"735 148 OFFCURVE",
+"713 223 OFFCURVE",
+"697 264 CURVE",
+"688 264 LINE",
+"660 202 OFFCURVE",
+"619 127 OFFCURVE",
+"582 83 CURVE",
+"616 82 LINE",
+"615 106 OFFCURVE",
+"606 209 OFFCURVE",
+"606 302 CURVE",
+"601 302 LINE",
+"539 234 OFFCURVE",
+"488 166 OFFCURVE",
+"488 82 CURVE SMOOTH",
+"488 42 OFFCURVE",
+"528 0 OFFCURVE",
+"596 0 CURVE SMOOTH"
+);
+}
+);
+width = 735;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "gimelHeth-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{209, 326}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"216 31 LINE",
+"223 101 LINE",
+"145 255 LINE",
+"134 255 LINE",
+"104 218 OFFCURVE",
+"69 182 OFFCURVE",
+"30 154 CURVE",
+"74 63 LINE",
+"86 33 OFFCURVE",
+"86 19 OFFCURVE",
+"60 -74 CURVE SMOOTH",
+"5 -272 LINE",
+"24 -278 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"267 0 LINE",
+"336 75 LINE",
+"336 124 OFFCURVE",
+"308 207 OFFCURVE",
+"283 255 CURVE",
+"275 255 LINE",
+"251 193 OFFCURVE",
+"222 137 OFFCURVE",
+"187 90 CURVE",
+"176 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"265 0 LINE",
+"336 0 LINE SMOOTH",
+"341 0 OFFCURVE",
+"344 3 OFFCURVE",
+"344 8 CURVE SMOOTH",
+"344 87 LINE SMOOTH",
+"344 92 OFFCURVE",
+"341 95 OFFCURVE",
+"336 95 CURVE SMOOTH",
+"265 95 LINE"
+);
+}
+);
+width = 336;
+}
+);
+leftMetricsKey = "gimelHeth-uyg";
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "kaph-uyg.alt";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"-50 139 OFFCURVE",
+"65 0 OFFCURVE",
+"198 0 CURVE SMOOTH",
+"397 0 LINE SMOOTH",
+"402 0 OFFCURVE",
+"405 3 OFFCURVE",
+"405 8 CURVE SMOOTH",
+"405 87 LINE SMOOTH",
+"405 92 OFFCURVE",
+"402 95 OFFCURVE",
+"397 95 CURVE",
+"397 148 OFFCURVE",
+"384 209 OFFCURVE",
+"366 260 CURVE",
+"353 260 LINE",
+"312 138 LINE",
+"301 189 OFFCURVE",
+"284 241 OFFCURVE",
+"259 291 CURVE",
+"137 204 LINE",
+"137 198 LINE",
+"181 171 OFFCURVE",
+"219 132 OFFCURVE",
+"243 95 CURVE",
+"223 95 LINE SMOOTH",
+"73 95 OFFCURVE",
+"-8 244 OFFCURVE",
+"-21 464 CURVE",
+"-33 464 LINE",
+"-50 427 LINE"
+);
+}
+);
+width = 397;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "kaph-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"463 197 LINE",
+"512 166 OFFCURVE",
+"556 121 OFFCURVE",
+"577 79 CURVE",
+"557 0 LINE",
+"648 0 LINE SMOOTH",
+"694 0 OFFCURVE",
+"720 40 OFFCURVE",
+"720 96 CURVE SMOOTH",
+"720 147 OFFCURVE",
+"708 208 OFFCURVE",
+"691 259 CURVE",
+"677 259 LINE",
+"636 138 LINE",
+"626 188 OFFCURVE",
+"609 239 OFFCURVE",
+"584 289 CURVE",
+"463 203 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"720 0 LINE SMOOTH",
+"725 0 OFFCURVE",
+"728 3 OFFCURVE",
+"728 8 CURVE SMOOTH",
+"728 87 LINE SMOOTH",
+"728 92 OFFCURVE",
+"725 95 OFFCURVE",
+"720 95 CURVE SMOOTH",
+"205 95 LINE SMOOTH",
+"124 95 OFFCURVE",
+"108 110 OFFCURVE",
+"105 166 CURVE",
+"98 166 LINE",
+"31 98 LINE SMOOTH",
+"19 87 OFFCURVE",
+"10 74 OFFCURVE",
+"10 52 CURVE SMOOTH",
+"10 25 OFFCURVE",
+"32 -12 OFFCURVE",
+"81 -12 CURVE SMOOTH",
+"98 -12 LINE",
+"626 0 LINE"
+);
+}
+);
+width = 720;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lamedh-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"706 0 LINE",
+"743 74 LINE",
+"786 87 LINE",
+"664 223 OFFCURVE",
+"607 374 OFFCURVE",
+"607 502 CURVE SMOOTH",
+"607 548 OFFCURVE",
+"611 579 OFFCURVE",
+"620 614 CURVE",
+"610 617 LINE",
+"464 527 OFFCURVE",
+"387 470 OFFCURVE",
+"388 382 CURVE SMOOTH",
+"388 355 OFFCURVE",
+"397 335 OFFCURVE",
+"405 328 CURVE",
+"410 328 LINE",
+"517 356 LINE",
+"505 377 OFFCURVE",
+"497 404 OFFCURVE",
+"497 420 CURVE SMOOTH",
+"497 451 OFFCURVE",
+"510 488 OFFCURVE",
+"543 515 CURVE",
+"556 510 LINE",
+"551 489 OFFCURVE",
+"546 447 OFFCURVE",
+"546 407 CURVE SMOOTH",
+"546 263 OFFCURVE",
+"628 125 OFFCURVE",
+"670 70 CURVE",
+"645 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"99 -14 LINE",
+"634 0 LINE",
+"787 0 LINE SMOOTH",
+"792 0 OFFCURVE",
+"795 3 OFFCURVE",
+"795 8 CURVE SMOOTH",
+"795 87 LINE SMOOTH",
+"795 92 OFFCURVE",
+"792 95 OFFCURVE",
+"787 95 CURVE SMOOTH",
+"207 95 LINE SMOOTH",
+"125 95 OFFCURVE",
+"109 110 OFFCURVE",
+"107 167 CURVE",
+"99 167 LINE",
+"32 99 LINE SMOOTH",
+"19 85 OFFCURVE",
+"10 73 OFFCURVE",
+"10 52 CURVE SMOOTH",
+"10 24 OFFCURVE",
+"33 -14 OFFCURVE",
+"83 -14 CURVE SMOOTH"
+);
+}
+);
+width = 787;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "lesh-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+guideLines = (
+{
+angle = 90;
+position = "{410, 93}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"278 -124 LINE",
+"273 -117 LINE",
+"131 -117 LINE",
+"140 -139 LINE",
+"152 4 LINE",
+"113 37 LINE",
+"54 -146 LINE SMOOTH",
+"49 -161 OFFCURVE",
+"48 -173 OFFCURVE",
+"48 -180 CURVE SMOOTH",
+"48 -203 OFFCURVE",
+"54 -213 OFFCURVE",
+"84 -213 CURVE SMOOTH",
+"122 -213 OFFCURVE",
+"179 -220 OFFCURVE",
+"220 -232 CURVE",
+"227 -229 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"167 0 LINE",
+"283 0 LINE SMOOTH",
+"288 0 OFFCURVE",
+"291 3 OFFCURVE",
+"291 8 CURVE SMOOTH",
+"291 87 LINE SMOOTH",
+"291 92 OFFCURVE",
+"288 95 OFFCURVE",
+"283 95 CURVE SMOOTH",
+"209 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"122 305 LINE",
+"84 267 OFFCURVE",
+"15 170 OFFCURVE",
+"15 123 CURVE SMOOTH",
+"15 48 OFFCURVE",
+"79 0 OFFCURVE",
+"167 0 CURVE SMOOTH",
+"199 0 OFFCURVE",
+"218 21 OFFCURVE",
+"227 52 CURVE SMOOTH",
+"283 248 LINE",
+"273 259 LINE",
+"220 220 OFFCURVE",
+"149 162 OFFCURVE",
+"101 75 CURVE",
+"142 75 LINE",
+"128 303 LINE"
+);
+}
+);
+width = 283;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "mem-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"168 0 LINE",
+"421 0 LINE SMOOTH",
+"426 0 OFFCURVE",
+"428 3 OFFCURVE",
+"428 8 CURVE SMOOTH",
+"428 87 LINE SMOOTH",
+"428 92 OFFCURVE",
+"426 95 OFFCURVE",
+"421 95 CURVE SMOOTH",
+"168 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"338 61 LINE",
+"422 74 LINE",
+"332 239 LINE",
+"275 328 LINE",
+"251 227 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"15 221 LINE",
+"223 221 LINE",
+"251 240 LINE",
+"302 221 LINE",
+"421 221 LINE",
+"421 277 LINE",
+"15 277 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"270 366 LINE",
+"184 312 LINE",
+"163 208 LINE SMOOTH",
+"115 -29 OFFCURVE",
+"14 -188 OFFCURVE",
+"-50 -270 CURVE",
+"-33 -280 LINE",
+"49 -208 OFFCURVE",
+"146 -86 OFFCURVE",
+"210 29 CURVE",
+"251 227 LINE",
+"277 292 LINE",
+"277 363 LINE"
+);
+}
+);
+width = 420;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "nun-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+position = "{660, 326}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"730 0 LINE SMOOTH",
+"735 0 OFFCURVE",
+"738 3 OFFCURVE",
+"738 8 CURVE SMOOTH",
+"738 87 LINE SMOOTH",
+"738 92 OFFCURVE",
+"735 95 OFFCURVE",
+"730 95 CURVE",
+"725 139 OFFCURVE",
+"703 186 OFFCURVE",
+"682 221 CURVE",
+"674 221 LINE",
+"652 174 OFFCURVE",
+"625 131 OFFCURVE",
+"591 95 CURVE",
+"206 95 LINE SMOOTH",
+"124 95 OFFCURVE",
+"109 109 OFFCURVE",
+"107 167 CURVE",
+"98 167 LINE",
+"30 99 LINE SMOOTH",
+"17 86 OFFCURVE",
+"10 72 OFFCURVE",
+"10 52 CURVE SMOOTH",
+"10 26 OFFCURVE",
+"31 -13 OFFCURVE",
+"81 -13 CURVE SMOOTH",
+"98 -13 LINE",
+"628 0 LINE"
+);
+}
+);
+width = 730;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "pe-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"672 0 LINE SMOOTH",
+"677 0 OFFCURVE",
+"680 3 OFFCURVE",
+"680 8 CURVE SMOOTH",
+"680 87 LINE SMOOTH",
+"680 92 OFFCURVE",
+"677 95 OFFCURVE",
+"672 95 CURVE SMOOTH",
+"671 95 LINE",
+"652 239 OFFCURVE",
+"556 324 OFFCURVE",
+"517 324 CURVE SMOOTH",
+"482 324 OFFCURVE",
+"389 237 OFFCURVE",
+"389 190 CURVE SMOOTH",
+"389 162 OFFCURVE",
+"397 115 OFFCURVE",
+"399 95 CURVE",
+"356 95 LINE SMOOTH",
+"155 95 OFFCURVE",
+"37 245 OFFCURVE",
+"29 466 CURVE",
+"17 466 LINE",
+"5 419 LINE",
+"0 140 OFFCURVE",
+"147 0 OFFCURVE",
+"332 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"453 201 OFFCURVE",
+"471 225 OFFCURVE",
+"484 225 CURVE SMOOTH",
+"506 225 OFFCURVE",
+"571 130 OFFCURVE",
+"587 95 CURVE",
+"480 95 LINE",
+"473 115 OFFCURVE",
+"453 164 OFFCURVE",
+"453 186 CURVE SMOOTH"
+);
+}
+);
+width = 672;
+}
+);
+leftMetricsKey = "pe-uyg";
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "resh-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"213 202 LINE",
+"262 169 OFFCURVE",
+"307 123 OFFCURVE",
+"328 80 CURVE",
+"309 0 LINE",
+"400 0 LINE SMOOTH",
+"450 0 OFFCURVE",
+"475 41 OFFCURVE",
+"475 97 CURVE SMOOTH",
+"475 151 OFFCURVE",
+"463 212 OFFCURVE",
+"445 263 CURVE",
+"436 263 LINE",
+"389 140 LINE",
+"378 192 OFFCURVE",
+"361 244 OFFCURVE",
+"336 295 CURVE",
+"213 208 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"44 -4 OFFCURVE",
+"75 0 OFFCURVE",
+"119 0 CURVE SMOOTH",
+"475 0 LINE SMOOTH",
+"480 0 OFFCURVE",
+"483 3 OFFCURVE",
+"483 8 CURVE SMOOTH",
+"483 87 LINE SMOOTH",
+"483 92 OFFCURVE",
+"480 95 OFFCURVE",
+"475 95 CURVE SMOOTH",
+"130 95 LINE SMOOTH",
+"84 95 OFFCURVE",
+"65 88 OFFCURVE",
+"50 64 CURVE SMOOTH",
+"10 -2 LINE",
+"13 -12 LINE"
+);
+}
+);
+width = 475;
+}
+);
+leftMetricsKey = "resh-uyg";
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "sadhe-uyg.alt";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"312 277 LINE",
+"262 259 OFFCURVE",
+"183 256 OFFCURVE",
+"111 256 CURVE SMOOTH",
+"82 256 OFFCURVE",
+"61 252 OFFCURVE",
+"61 199 CURVE SMOOTH",
+"61 68 OFFCURVE",
+"48 -131 OFFCURVE",
+"-50 -274 CURVE",
+"-35 -284 LINE",
+"48 -199 OFFCURVE",
+"88 -110 OFFCURVE",
+"104 0 CURVE",
+"320 0 LINE SMOOTH",
+"325 0 OFFCURVE",
+"328 3 OFFCURVE",
+"328 8 CURVE SMOOTH",
+"328 87 LINE SMOOTH",
+"328 92 OFFCURVE",
+"325 95 OFFCURVE",
+"320 95 CURVE SMOOTH",
+"112 95 LINE",
+"115 159 LINE",
+"140 158 OFFCURVE",
+"212 157 OFFCURVE",
+"246 157 CURVE SMOOTH",
+"265 157 OFFCURVE",
+"273 162 OFFCURVE",
+"283 187 CURVE SMOOTH",
+"318 274 LINE"
+);
+}
+);
+width = 320;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "sadhe-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"98 -13 LINE",
+"556 0 LINE",
+"769 0 LINE SMOOTH",
+"774 0 OFFCURVE",
+"777 3 OFFCURVE",
+"777 8 CURVE SMOOTH",
+"777 87 LINE SMOOTH",
+"777 92 OFFCURVE",
+"774 95 OFFCURVE",
+"769 95 CURVE SMOOTH",
+"207 95 LINE SMOOTH",
+"125 95 OFFCURVE",
+"110 110 OFFCURVE",
+"108 167 CURVE",
+"98 167 LINE",
+"31 99 LINE SMOOTH",
+"19 86 OFFCURVE",
+"10 73 OFFCURVE",
+"10 52 CURVE SMOOTH",
+"10 25 OFFCURVE",
+"32 -13 OFFCURVE",
+"82 -13 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"760 279 LINE",
+"709 262 OFFCURVE",
+"629 258 OFFCURVE",
+"606 258 CURVE SMOOTH",
+"573 258 OFFCURVE",
+"551 251 OFFCURVE",
+"538 199 CURVE SMOOTH",
+"506 74 LINE",
+"557 77 LINE",
+"580 160 LINE",
+"592 160 OFFCURVE",
+"650 158 OFFCURVE",
+"692 158 CURVE SMOOTH",
+"712 158 OFFCURVE",
+"718 163 OFFCURVE",
+"729 189 CURVE SMOOTH",
+"765 276 LINE"
+);
+}
+);
+width = 769;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "samekh-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"182 83 OFFCURVE",
+"198 72 OFFCURVE",
+"198 31 CURVE SMOOTH",
+"198 -13 OFFCURVE",
+"178 -65 OFFCURVE",
+"144 -109 CURVE",
+"186 -150 LINE",
+"308 -55 LINE SMOOTH",
+"387 6 OFFCURVE",
+"408 32 OFFCURVE",
+"408 75 CURVE SMOOTH",
+"408 123 OFFCURVE",
+"381 206 OFFCURVE",
+"354 256 CURVE",
+"341 256 LINE",
+"320 175 OFFCURVE",
+"282 95 OFFCURVE",
+"228 31 CURVE",
+"283 -2 LINE",
+"283 118 OFFCURVE",
+"245 184 OFFCURVE",
+"188 235 CURVE",
+"176 235 LINE",
+"92 82 OFFCURVE",
+"2 -19 OFFCURVE",
+"-100 -95 CURVE",
+"-87 -112 LINE",
+"-3 -67 OFFCURVE",
+"116 5 OFFCURVE",
+"195 95 CURVE",
+"173 92 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"333 0 LINE",
+"408 0 LINE SMOOTH",
+"413 0 OFFCURVE",
+"416 3 OFFCURVE",
+"416 8 CURVE SMOOTH",
+"416 87 LINE SMOOTH",
+"416 92 OFFCURVE",
+"413 95 OFFCURVE",
+"408 95 CURVE SMOOTH",
+"333 95 LINE"
+);
+}
+);
+width = 408;
+}
+);
+leftMetricsKey = "samekh-uyg";
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "shin-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{209, -130}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"350 -148 LINE",
+"360 -148 LINE",
+"433 -96 OFFCURVE",
+"520 0 OFFCURVE",
+"520 75 CURVE SMOOTH",
+"520 124 OFFCURVE",
+"493 208 OFFCURVE",
+"466 259 CURVE",
+"454 259 LINE",
+"428 172 OFFCURVE",
+"402 86 OFFCURVE",
+"339 19 CURVE",
+"407 21 LINE",
+"308 238 LINE",
+"296 238 LINE",
+"199 83 OFFCURVE",
+"108 -21 OFFCURVE",
+"5 -97 CURVE",
+"18 -115 LINE",
+"104 -69 OFFCURVE",
+"225 3 OFFCURVE",
+"304 95 CURVE",
+"252 69 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"520 0 LINE SMOOTH",
+"525 0 OFFCURVE",
+"528 3 OFFCURVE",
+"528 8 CURVE SMOOTH",
+"528 87 LINE SMOOTH",
+"528 92 OFFCURVE",
+"525 95 OFFCURVE",
+"520 95 CURVE SMOOTH",
+"445 95 LINE",
+"445 0 LINE"
+);
+}
+);
+width = 520;
+}
+);
+leftMetricsKey = "gimelHeth-uyg";
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "taw-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"98 -13 LINE",
+"434 -2 LINE SMOOTH",
+"482 0 OFFCURVE",
+"506 18 OFFCURVE",
+"534 40 CURVE SMOOTH",
+"595 88 LINE",
+"583 147 LINE",
+"545 121 LINE SMOOTH",
+"515 101 OFFCURVE",
+"480 95 OFFCURVE",
+"441 95 CURVE SMOOTH",
+"207 95 LINE SMOOTH",
+"125 95 OFFCURVE",
+"109 110 OFFCURVE",
+"107 167 CURVE",
+"98 167 LINE",
+"31 99 LINE SMOOTH",
+"19 87 OFFCURVE",
+"10 73 OFFCURVE",
+"10 53 CURVE SMOOTH",
+"10 26 OFFCURVE",
+"32 -13 OFFCURVE",
+"82 -13 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"845 0 LINE SMOOTH",
+"865 0 OFFCURVE",
+"870 42 OFFCURVE",
+"870 76 CURVE SMOOTH",
+"870 167 OFFCURVE",
+"832 288 OFFCURVE",
+"780 288 CURVE SMOOTH",
+"726 288 OFFCURVE",
+"678 235 OFFCURVE",
+"623 175 CURVE",
+"634 111 LINE",
+"666 145 OFFCURVE",
+"710 184 OFFCURVE",
+"729 184 CURVE SMOOTH",
+"746 184 OFFCURVE",
+"758 125 OFFCURVE",
+"758 95 CURVE",
+"683 95 LINE SMOOTH",
+"656 95 OFFCURVE",
+"649 105 OFFCURVE",
+"650 128 CURVE SMOOTH",
+"657 302 LINE",
+"652 302 LINE",
+"591 234 OFFCURVE",
+"540 165 OFFCURVE",
+"540 82 CURVE SMOOTH",
+"540 33 OFFCURVE",
+"582 0 OFFCURVE",
+"634 0 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"842 0 LINE",
+"870 0 LINE SMOOTH",
+"875 0 OFFCURVE",
+"878 3 OFFCURVE",
+"878 8 CURVE SMOOTH",
+"878 87 LINE SMOOTH",
+"878 92 OFFCURVE",
+"875 95 OFFCURVE",
+"870 95 CURVE SMOOTH",
+"842 95 LINE"
+);
+}
+);
+width = 870;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "waw-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"462 11 LINE",
+"467 165 LINE SMOOTH",
+"467 168 OFFCURVE",
+"467 172 OFFCURVE",
+"465 176 CURVE",
+"450 230 OFFCURVE",
+"412 266 OFFCURVE",
+"348 266 CURVE SMOOTH",
+"265 266 OFFCURVE",
+"210 203 OFFCURVE",
+"189 93 CURVE",
+"247 83 LINE",
+"263 145 OFFCURVE",
+"299 169 OFFCURVE",
+"339 169 CURVE SMOOTH",
+"386 169 OFFCURVE",
+"419 130 OFFCURVE",
+"420 63 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"38 -4 OFFCURVE",
+"70 0 OFFCURVE",
+"113 0 CURVE SMOOTH",
+"472 0 LINE SMOOTH",
+"477 0 OFFCURVE",
+"480 3 OFFCURVE",
+"480 8 CURVE SMOOTH",
+"480 87 LINE SMOOTH",
+"480 92 OFFCURVE",
+"477 95 OFFCURVE",
+"472 95 CURVE SMOOTH",
+"124 95 LINE SMOOTH",
+"78 95 OFFCURVE",
+"60 88 OFFCURVE",
+"45 63 CURVE SMOOTH",
+"5 -2 LINE",
+"8 -11 LINE"
+);
+}
+);
+width = 472;
+}
+);
+leftMetricsKey = "waw-uyg";
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "yodh-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+guideLines = (
+{
+angle = 225;
+position = "{222, 204}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"43 -4 OFFCURVE",
+"75 0 OFFCURVE",
+"118 0 CURVE SMOOTH",
+"475 0 LINE SMOOTH",
+"480 0 OFFCURVE",
+"483 3 OFFCURVE",
+"483 8 CURVE SMOOTH",
+"483 87 LINE SMOOTH",
+"483 92 OFFCURVE",
+"480 95 OFFCURVE",
+"475 95 CURVE SMOOTH",
+"460 95 LINE",
+"433 184 LINE SMOOTH",
+"409 262 OFFCURVE",
+"359 279 OFFCURVE",
+"298 279 CURVE SMOOTH",
+"285 279 OFFCURVE",
+"275 273 OFFCURVE",
+"263 262 CURVE SMOOTH",
+"162 162 LINE",
+"167 155 LINE",
+"190 160 OFFCURVE",
+"213 163 OFFCURVE",
+"231 163 CURVE SMOOTH",
+"284 163 OFFCURVE",
+"300 151 OFFCURVE",
+"338 95 CURVE",
+"129 95 LINE SMOOTH",
+"83 95 OFFCURVE",
+"65 87 OFFCURVE",
+"50 63 CURVE SMOOTH",
+"10 -2 LINE",
+"14 -12 LINE"
+);
+}
+);
+width = 475;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
+},
+{
+glyphname = "zayin-uyg.fina";
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{103, 0}";
+}
+);
+guideLines = (
+{
+angle = 225;
+position = "{131, 15}";
+},
+{
+angle = 225;
+position = "{-26, 155}";
+}
+);
+layerId = m01;
+paths = (
+{
+closed = 1;
+nodes = (
+"14 -12 LINE",
+"43 -5 OFFCURVE",
+"76 0 OFFCURVE",
+"119 0 CURVE SMOOTH",
+"226 0 LINE SMOOTH",
+"231 0 OFFCURVE",
+"234 3 OFFCURVE",
+"234 8 CURVE SMOOTH",
+"234 87 LINE SMOOTH",
+"234 92 OFFCURVE",
+"231 95 OFFCURVE",
+"226 95 CURVE SMOOTH",
+"129 95 LINE SMOOTH",
+"83 95 OFFCURVE",
+"66 85 OFFCURVE",
+"51 62 CURVE SMOOTH",
+"10 -2 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"130 76 LINE",
+"188 0 LINE",
+"220 0 OFFCURVE",
+"226 13 OFFCURVE",
+"226 90 CURVE SMOOTH",
+"226 285 LINE",
+"213 286 LINE",
+"149 226 LINE"
+);
+}
+);
+width = 226;
+}
+);
+script = "Old Uyghur";
+category = Letter;
+subCategory = Other;
 },
 {
 glyphname = "mem-uyg_lesh-uyg";
@@ -6414,19 +6417,6 @@ category = Letter;
 subCategory = Ligature;
 },
 {
-glyphname = zerowidthnonjoiner;
-lastChange = "2021-12-09 08:59:54 +0000";
-layers = (
-{
-layerId = m01;
-width = 0;
-}
-);
-unicode = 200C;
-script = "Old Uyghur";
-category = Separator;
-},
-{
 glyphname = space;
 lastChange = "2021-12-09 08:59:54 +0000";
 layers = (
@@ -6454,6 +6444,19 @@ unicode = 00A0;
 script = "Old Uyghur";
 category = Separator;
 subCategory = Space;
+},
+{
+glyphname = zerowidthnonjoiner;
+lastChange = "2021-12-09 08:59:54 +0000";
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 200C;
+script = "Old Uyghur";
+category = Separator;
 },
 {
 glyphname = u10AF2;
@@ -6738,7 +6741,7 @@ category = Punctuation;
 },
 {
 glyphname = "dotabove-uyg";
-lastChange = "2021-12-09 08:59:54 +0000";
+lastChange = "2023-10-25 12:50:41 +0000";
 layers = (
 {
 anchors = (
@@ -6765,10 +6768,11 @@ width = 0;
 unicode = 10F82;
 script = "Old Uyghur";
 category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "dotbelow-uyg";
-lastChange = "2021-12-09 08:59:54 +0000";
+lastChange = "2023-10-25 12:50:41 +0000";
 layers = (
 {
 anchors = (
@@ -6795,10 +6799,11 @@ width = 0;
 unicode = 10F83;
 script = "Old Uyghur";
 category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "twodotsabove-uyg";
-lastChange = "2021-12-09 08:59:54 +0000";
+lastChange = "2023-10-25 12:50:41 +0000";
 layers = (
 {
 anchors = (
@@ -6834,10 +6839,11 @@ width = 0;
 unicode = 10F84;
 script = "Old Uyghur";
 category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "twodotsbelow-uyg";
-lastChange = "2021-12-09 08:59:54 +0000";
+lastChange = "2023-10-25 12:50:41 +0000";
 layers = (
 {
 anchors = (
@@ -6873,6 +6879,7 @@ width = 0;
 unicode = 10F85;
 script = "Old Uyghur";
 category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = "finalHethdotabove-uyg";
