@@ -62,10 +62,6 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = versionString;
-value = "Version 1.003";
-},
-{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 },
@@ -7541,5 +7537,5 @@ tH = "80";
 };
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
