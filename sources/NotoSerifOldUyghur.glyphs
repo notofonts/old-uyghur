@@ -1,5 +1,5 @@
 {
-.appVersion = "3221";
+.appVersion = "3414";
 DisplayStrings = (
 "/nbspace"
 );
@@ -9,27 +9,27 @@ code = "aleph-uyg kashida-ar beth-uyg finalHeth-uyg finalHethdotabove-uyg finalH
 name = All;
 },
 {
-code = "lamedh-uyg shin-uyg kaph-uyg samekh-uyg resh-uyg taw-uyg sadhe-uyg aleph-uyg mem-uyg beth-uyg lesh-uyg gimelHeth-uyg nun-uyg yodh-uyg pe-uyg waw-uyg\012";
+code = "aleph-uyg\012beth-uyg\012gimelHeth-uyg\012kaph-uyg\012lamedh-uyg\012lesh-uyg\012mem-uyg\012nun-uyg\012pe-uyg\012resh-uyg\012sadhe-uyg\012samekh-uyg\012shin-uyg\012taw-uyg\012waw-uyg\012yodh-uyg\012";
 name = initDef;
 },
 {
-code = "lamedh-uyg.init shin-uyg.init kaph-uyg.init samekh-uyg.init resh-uyg.init taw-uyg.init sadhe-uyg.init aleph-uyg.init mem-uyg.init beth-uyg.init lesh-uyg.init gimelHeth-uyg.init nun-uyg.init yodh-uyg.init pe-uyg.init waw-uyg.init\012";
+code = "aleph-uyg.init\012beth-uyg.init\012gimelHeth-uyg.init\012kaph-uyg.init\012lamedh-uyg.init\012lesh-uyg.init\012mem-uyg.init\012nun-uyg.init\012pe-uyg.init\012resh-uyg.init\012sadhe-uyg.init\012samekh-uyg.init\012shin-uyg.init\012taw-uyg.init\012waw-uyg.init\012yodh-uyg.init\012";
 name = initSub;
 },
 {
-code = "lesh-uyg shin-uyg samekh-uyg resh-uyg pe-uyg mem-uyg aleph-uyg finalHeth-uyg lamedh-uyg sadhe-uyg zayin-uyg yodh-uyg waw-uyg kaph-uyg beth-uyg taw-uyg nun-uyg gimelHeth-uyg\012";
+code = "aleph-uyg\012beth-uyg\012finalHeth-uyg\012gimelHeth-uyg\012kaph-uyg\012lamedh-uyg\012lesh-uyg\012mem-uyg\012nun-uyg\012pe-uyg\012resh-uyg\012sadhe-uyg\012samekh-uyg\012shin-uyg\012taw-uyg\012waw-uyg\012yodh-uyg\012zayin-uyg\012";
 name = finaDef;
 },
 {
-code = "lesh-uyg.fina shin-uyg.fina samekh-uyg.fina resh-uyg.fina pe-uyg.fina mem-uyg.fina aleph-uyg.fina finalHeth-uyg.fina lamedh-uyg.fina sadhe-uyg.fina zayin-uyg.fina yodh-uyg.fina waw-uyg.fina kaph-uyg.fina beth-uyg.fina taw-uyg.fina nun-uyg.fina gimelHeth-uyg.fina\012";
+code = "aleph-uyg.fina\012beth-uyg.fina\012finalHeth-uyg.fina\012gimelHeth-uyg.fina\012kaph-uyg.fina\012lamedh-uyg.fina\012lesh-uyg.fina\012mem-uyg.fina\012nun-uyg.fina\012pe-uyg.fina\012resh-uyg.fina\012sadhe-uyg.fina\012samekh-uyg.fina\012shin-uyg.fina\012taw-uyg.fina\012waw-uyg.fina\012yodh-uyg.fina\012zayin-uyg.fina\012";
 name = finaSub;
 },
 {
-code = "aleph-uyg mem-uyg samekh-uyg sadhe-uyg yodh-uyg nun-uyg resh-uyg lamedh-uyg shin-uyg taw-uyg pe-uyg gimelHeth-uyg kaph-uyg waw-uyg lesh-uyg beth-uyg\012";
+code = "aleph-uyg\012beth-uyg\012gimelHeth-uyg\012kaph-uyg\012lamedh-uyg\012lesh-uyg\012mem-uyg\012nun-uyg\012pe-uyg\012resh-uyg\012sadhe-uyg\012samekh-uyg\012shin-uyg\012taw-uyg\012waw-uyg\012yodh-uyg\012";
 name = mediDef;
 },
 {
-code = "aleph-uyg.medi mem-uyg.medi samekh-uyg.medi sadhe-uyg.medi yodh-uyg.medi nun-uyg.medi resh-uyg.medi lamedh-uyg.medi shin-uyg.medi taw-uyg.medi pe-uyg.medi gimelHeth-uyg.medi kaph-uyg.medi waw-uyg.medi lesh-uyg.medi beth-uyg.medi\012";
+code = "aleph-uyg.medi\012beth-uyg.medi\012gimelHeth-uyg.medi\012kaph-uyg.medi\012lamedh-uyg.medi\012lesh-uyg.medi\012mem-uyg.medi\012nun-uyg.medi\012pe-uyg.medi\012resh-uyg.medi\012sadhe-uyg.medi\012samekh-uyg.medi\012shin-uyg.medi\012taw-uyg.medi\012waw-uyg.medi\012yodh-uyg.medi\012";
 name = mediSub;
 },
 {
